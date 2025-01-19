@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>فروش امتیاز وام رسالت</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container {
+            padding: 2rem 1rem;
+        }
+        form input, form button {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="container-fluid">
+    <ul>
+        <li><strong>فروش امتیاز وام رسالت</strong></li>
+    </ul>
+    <ul>
+        <li><a href="#">خانه</a></li>
+        <li><a href="#">خدمات</a></li>
+        <li><a href="#" role="button">تماس با ما</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+    <div class="grid">
+        <section>
+            <hgroup>
+                <h2>فروش امتیاز وام رسالت</h2>
+                <h3>سریع، مطمئن و آسان</h3>
+            </hgroup>
+            <p>اگر به دنبال خرید یا فروش امتیاز وام رسالت هستید، ما در کنار شما هستیم. کافی است اطلاعات تماس خود را وارد کنید تا با شما تماس بگیریم.</p>
+            <figure>
+                <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAABsg0+KAA..." alt="لوگوی رسالت">
+                <figcaption>بانک قرض‌الحسنه رسالت</figcaption>
+            </figure>
+            <h3>چرا ما؟</h3>
+            <p>ما بهترین خدمات خرید و فروش امتیاز وام را با تیمی مجرب و پشتیبانی کامل ارائه می‌دهیم.</p>
+            <h3>تماس با ما</h3>
+            <p>برای اطلاعات بیشتر و مشاوره، فرم زیر را پر کنید.</p>
+        </section>
+    </div>
+</main>
+
+<section aria-label="Subscribe example">
+    <div class="container">
+        <article>
+            <hgroup>
+                <h2>فرم تماس</h2>
+                <h3>اطلاعات خود را وارد کنید</h3>
+            </hgroup>
+            <form class="grid">
+                <input type="text" id="firstname" name="firstname" placeholder="نام" aria-label="نام" required />
+                <input type="email" id="email" name="email" placeholder="ایمیل" aria-label="ایمیل" required />
+                <input type="tel" id="phone" name="phone" placeholder="شماره تماس" aria-label="شماره تماس" required />
+                <button type="submit" onclick="event.preventDefault()">ارسال</button>
+            </form>
+        </article>
+    </div>
+</section>
+
+<footer class="container">
+    <small><a href="#">شرایط و قوانین</a> • <a href="#">حریم خصوصی</a></small>
+</footer>
+
+</body>
+</html>
